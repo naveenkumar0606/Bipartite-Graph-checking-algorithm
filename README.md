@@ -53,14 +53,6 @@ This demonstrates that the incompatibility graph can be split into two teams whe
 
 ---
 
-## Summary of Logic
-
-- Both scripts construct an **adjacency list** representation of an undirected graph.
-- `is_bipartite_bfs()` and `is_bipartite_dfs()` functions test if the graph can be colored using two colors such that no adjacent nodes share the same color.
-- If bipartite, the coloring determines a valid partition of vertices into two sets.
-
----
-
 ## Notes
 
 - Tested with **Python 3.8+**
