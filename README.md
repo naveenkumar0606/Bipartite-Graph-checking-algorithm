@@ -29,11 +29,8 @@ python3 application1.py
 BFS check result: True
 DFS check result: True
 One valid bipartition (from BFS coloring):
-A = [`Aarav', `Aditya', `Aditi', `Ananya', `Anika', `Dev', `Diya', `Ira',
-`Isha', `Karan', `Kabir', `Kavya', `Manav', `Maya', `Meera', `Neha',
-`Naveen', `Priya', `Rhea', `Riya', `Rohan', `Rohit', `Sameer', `Shiv',
-`Sanya', `Sita', `Tara', `Varun', `Vikram', `Vivek']
-B = [`AI', `CS', `Econ', `Math', `Stats']
+A = ['Aarav', 'Aditi', 'Aditya', 'Ananya', 'Anika', 'Arjun', 'Dev', 'Diya', 'Ira', 'Isha', 'Kabir', 'Karan', 'Kavya', 'Manav', 'Maya', 'Meera', 'Naveen', 'Neha', 'Neil', 'Nikhil', 'Pooja', 'Priya', 'Rahul', 'Rhea', 'Riya', 'Rohan', 'Rohit', 'Sameer', 'Sanya', 'Shiv', 'Sita', 'Tanya', 'Tara', 'Varun', 'Vikram', 'Vivek']
+B = ['AI', 'CS', 'Econ', 'Math', 'Stats']
 ```
 
 This shows that the graph is bipartite, with the left partition containing students and the right partition containing courses.
