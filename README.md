@@ -29,8 +29,11 @@ python3 application1.py
 BFS check result: True
 DFS check result: True
 One valid bipartition (from BFS coloring):
-A = ['Arjun', 'Kavya', 'Meera', 'Rahul', 'Sita', 'Vivek']
-B = ['AI', 'CS', 'Econ', 'Math', 'Stats']
+A = [`Aarav', `Aditya', `Aditi', `Ananya', `Anika', `Dev', `Diya', `Ira',
+`Isha', `Karan', `Kabir', `Kavya', `Manav', `Maya', `Meera', `Neha',
+`Naveen', `Priya', `Rhea', `Riya', `Rohan', `Rohit', `Sameer', `Shiv',
+`Sanya', `Sita', `Tara', `Varun', `Vikram', `Vivek']
+B = [`AI', `CS', `Econ', `Math', `Stats']
 ```
 
 This shows that the graph is bipartite, with the left partition containing students and the right partition containing courses.
@@ -45,8 +48,33 @@ python3 application2.py
 **Expected Output Example:**
 ```
 Bipartite: True
-Team A: ['A', 'B', 'C', 'H']
-Team B: ['D', 'E', 'F', 'G']
+Team A: [`Alice`, `Charlie`, `David`, `Frank`, `Grace`, `Irene`, `Jack`, 
+`Leo`, `Maya`, `Nathan`, `Olivia`, `Peter`, `Quinn`, `Rachel`, `Sam`, `
+Tina`, `Uma`, `Victor`, `Wendy`, `Xavier`, `Yara`, `Zach`, `Aaron`, `Bella`,
+`Caleb`, `Diana`, `Ethan`, `Fiona`, `George`, `Hannah`, `Ian`, `Julia`,
+`Kyle`, `Laura`, `Michael`, `Nina`, `Oscar`, `Paula`, `Quentin`, `Rebecca`,
+`Simon`, `Teresa`, `Ulysses`, `Vanessa`, `William`, `Xena`, `Yusuf`, 
+`Zoe`, `Adrian`, `Bianca`, `Connor`, `Danielle`, `Elijah`, `Faith`, `Gavin`, 
+`Holly`, `Isaac`, `Jasmine`, `Kevin`, `Lily`, `Mason`, `Natalie`, `Owen`, 
+`Penelope`, `Ryan`, `Sophia`, `Tyler`, `Ursula`, `Vincent`, `Whitney`,
+`Xavier2`, `Yasmin`, `Zachary`, `Amelia`, `Brandon`, `Chloe`, `Dominic`,
+`Ella`, `Finn`, `Gabriella`, `Hunter`, `Isabella`, `Jacob`, `Kaitlyn`,
+`Liam`, `Madison`, `Noah`, `Ophelia`, `Parker`, `Quinn2`, `Riley`, `Stella`,
+`Thomas`, `Una`, `Victor2`, `Willow`, `Xander`, `Yvonne`, `Zach3`, `Avery`, 
+`Brooke`, `Carter`, `Delilah`, `Everett`, `Freya`, `Grayson`, `Harper`]
+
+Team B: [`David`, `Emma`, `Isabella`, `Karen`, `Peter`, `Quinn`, `Tina`,
+`Victor`, `Xavier`, `Bella`, `Caleb`, `Diana`, `Ethan`, `Fiona`, `George`,
+`Hannah`, `Ian`, `Julia`, `Kyle`, `Laura`, `Michael`, `Nina`, `Oscar`,
+`Paula`, `Quentin`, `Rebecca`, `Simon`, `Teresa`, `Ulysses`, `Vanessa`,
+`William`, `Xena`, `Yusuf`, `Zoe`, `Adrian`, `Connor`, `Danielle`, `Elijah`,
+`Faith`, `Gavin`, `Holly`, `Isaac`, `Jasmine`, `Kevin`, `Lily`, `Mason`, 
+`Natalie`, `Owen`, `Penelope`, `Ryan`, `Sophia`, `Tyler`, `Ursula`, `Vincent`,
+`Whitney`, `Xavier2`, `Yasmin`, `Zachary`, `Amelia`, `Brandon`, `Chloe`,
+`Dominic`, `Ella`, `Finn`, `Gabriella`, `Hunter`, `Jacob`, `Kaitlyn`,
+`Liam`, `Madison`, `Noah`, `Ophelia`, `Parker`, `Quinn2`, `Riley`, `Stella`,
+`Thomas`, `Una`, `Victor2`, `Willow`, `Xander`, `Yvonne`, `Zach3`, `Avery`, 
+`Brooke`, `Carter`, `Delilah`, `Everett`, `Freya`, `Grayson`, `Harper`]
 ```
 
 This demonstrates that the incompatibility graph can be split into two teams where no two incompatible workers are in the same team.
